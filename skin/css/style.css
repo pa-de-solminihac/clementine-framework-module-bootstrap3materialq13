@@ -1,0 +1,62 @@
+
+body .navbar.navbar-default {
+    background-color: #3A3A3A;
+}
+
+body .nav .open > a,
+body .nav .open > a:focus,
+body .nav .open > a:active,
+body .nav .open > a:hover,
+body .dropdown-menu li a:hover,
+body .dropdown-menu-default li a:hover {
+    color: #F95602;
+}
+
+body .form-group .form-control:focus,
+body .form-group-default .form-control:focus,
+body .form-control {
+  border: 0;
+  background-image: linear-gradient(#F95602,#F95602),linear-gradient(#d2d2d2,#d2d2d2);
+}
+
+body .btn-success:not(.btn-link):not(.btn-flat),
+body .btn-primary:not(.btn-link):not(.btn-flat) {
+    background-color: #3A3A3A;
+}
+
+body .alert-danger,
+body .btn-material-red:not(.btn-link):not(.btn-flat),
+body .btn-danger:not(.btn-link):not(.btn-flat),
+body .dataTables_wrapper .pagination > .active > a,
+body .dataTables_wrapper .pagination > .active > span,
+body .dataTables_wrapper .pagination > .active > a:hover,
+body .dataTables_wrapper .pagination > .active > span:hover,
+body .dataTables_wrapper .pagination > .active > a:focus,
+body .dataTables_wrapper .pagination > .active > span:focus {
+    background-color: #F95602;
+}
+
+body .checkbox-primary input[type=checkbox]:checked~.check,
+body .checkbox-primary input[type=checkbox]:checked~.check:after,
+body .checkbox-primary input[type=checkbox]:checked~.check:before,
+body .clementine_crud-create-required_field::after,
+body .clementine_crud-update-required_field::after {
+    color: #F95602;
+}
+
+body a,
+body a:hover,
+body a:focus {
+    color: #3A3A3A;
+}
+
+body .navbar-brand {
+    text-indent: -9999px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    display: block;
+    width: 171px;
+}
+
