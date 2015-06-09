@@ -14,7 +14,7 @@ body .dropdown-menu-default li a:hover {
 
 body .form-group .form-control:focus,
 body .form-group-default .form-control:focus,
-body .form-control {
+body .form-control:focus {
   border: 0;
   background-image: linear-gradient(#F95602,#F95602),linear-gradient(#d2d2d2,#d2d2d2);
 }
