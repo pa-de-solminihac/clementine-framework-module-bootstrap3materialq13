@@ -60,3 +60,19 @@ body .navbar-brand {
     width: 171px;
 }
 
+#colorbox .clementine_crud-create_div.material_well {
+  display: block;
+  position: relative;
+}
+#colorbox .clementine_crud-create_form.clementine_crud-form {
+  position: unset;
+}
+#colorbox form button,
+#colorbox form > a {
+    border: 1px solid;
+    bottom: 0;
+    box-shadow: none;
+    clear: both;
+    float: none;
+    position: absolute !important;
+}
